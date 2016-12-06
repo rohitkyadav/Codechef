@@ -12,7 +12,6 @@ def nb_move(s):
          elif s[i]=='F' and e>0:
              f=f+1
              e=e-1
- 
     return f
  
 print(nb_move(input()))   
