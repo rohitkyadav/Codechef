@@ -9,5 +9,4 @@ for letter in string :
         e += 1
     elif letter == 'F' and f<e :
         f += 1
- 
-print (f)
+ print (f)
