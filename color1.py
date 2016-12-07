@@ -15,4 +15,3 @@ while tests>0:
 			count = A
 		print(count, color_string)
 	tests -= 1
-
