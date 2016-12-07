@@ -16,4 +16,3 @@ while tests > 0:
 		count = count1 + count2 + 1
 		print(count)
 	tests -= 1
-
