@@ -1,4 +1,5 @@
 tests = int(input("Enter the number of tests: "))
+
 while tests > 0:
 	number = int(input("Enter the number of elements for a test: "))
 	a = [int(x) for x in input().split()]
