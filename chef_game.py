@@ -1,5 +1,6 @@
-string = input()
+string = input("Enter a string")
 c = h = e = f = 0
+
 for letter in string :
     if letter =='C' :
         c += 1
@@ -9,4 +10,4 @@ for letter in string :
         e += 1
     elif letter == 'F' and f<e :
         f += 1
- print (f)
+print (f)
