@@ -1,4 +1,5 @@
 tests = int(input("enter the no. of test cases: "))
+
 while tests>0:
 	color_string = input("enter the color sequence using a and b only : ")
 	A = color_string.count('a')
