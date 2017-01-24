@@ -1,9 +1,11 @@
 tests = int(input("enter the no. of test cases: "))
+
 while tests>0:
 	color_string = input("enter the color sequence using a and b only : ")
 	L = len(color_string)
 	A = color_string.count('a')
 	B = color_string.count('b')
+	
 	if A>B:
 		for x in ['b']:
 			color_string = color_string.replace('b', 'a')
