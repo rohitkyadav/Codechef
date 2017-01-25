@@ -1,4 +1,5 @@
 T = int(input("Enter the number of test"))
+
 for x in range(T):
 	rooms = int(input("Enter the number of rooms"))
 	S = input("Enter the string of the colors in the rooms")
