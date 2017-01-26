@@ -1,4 +1,5 @@
 T = int(input())
+
 while T>0:
 	N, K = map(int, input().split())
 	D = [str(x) for x in input().split()]

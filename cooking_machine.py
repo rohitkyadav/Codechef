@@ -1,4 +1,5 @@
-T = int(input())
+T = int(input("Enter the number of tests: "))
+
 for x in range(T):
     I, F = map(int, input().split())
     count = 0
