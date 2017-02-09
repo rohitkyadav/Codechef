@@ -4,6 +4,7 @@ for _ in range(int(input())):
     N = int(input())
     i = 0
     C = 0
+    
     while(N != 0):
         if( N >= A[i]):
             N -= A[i]
