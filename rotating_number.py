@@ -25,6 +25,11 @@ def rotate(num, x):
 print(rotate(num, 1))
 
 
+# another method
 
-# rotate(lst, x):
-#     return [lst[-x:] + lst[:-x]
+#num = int(input())
+#rotate(num, x):
+#	lst = [int(x) for x in str(num)] 
+#	return [lst[-x:] + lst[:-x]
+
+#print(rotate(num, 1))
